@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300&display=swap");
+
+@font-face {
+  font-family: "Neue Montreal Medium";
+  src: url("../src/fonts/PPNeueMontreal-Medium.otf");
+}
+@font-face {
+  font-family: "Neue Montreal Bold";
+  src: url("../src/fonts/PPNeueMontreal-Bold.otf");
+}
+
+@font-face {
+  font-family: "Tester";
+  src: url("../src/fonts/PPRightGrotesk-WideMedium.otf");
+}
+
+/* Object Sans */
+@font-face {
+  font-family: "Object Sans Thin";
+  src: url("../src/fonts/PPObjectSans-Thin.otf");
+}
+
+@font-face {
+  font-family: "Object Sans Regular";
+  src: url("../src/fonts/PPObjectSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "Object Sans Bold";
+  src: url("../src/fonts/PPObjectSans-Bold.otf");
+}
+
+@font-face {
+  font-family: "Object Sans Heavy";
+  src: url("../src/fonts/PPObjectSans-Heavy.otf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: "Roboto Mono" !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  position: relative;
+  color: white;
+}
+
+#CodeColumn button {
+  background: #8d8d8d17 !important;
+  border: 0px solid white;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Object Sans Thin", sans-serif;
+  margin: 0;
+  line-height: 1.3;
+}
+
+main {
+  overflow: hidden;
+  position: relative;
+  background: white;
+  /* perspective: 1000px;
+  perspective-origin: 50% 50%; */
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: 15px;
+  color: #171717;
+  font-family: "Object Sans Thin", sans-serif;
+}
+
+a {
+  color: black;
+}
+/* Media queries */
+/* Large desktop */
+/* @media (min-width: 1200px) {
+} */
+
+/* Portrait tablet to landscape and desktop */
+/* @media (min-width: 768px) and (max-width: 979px) {
+} */
+
+/* Landscape phone to portrait tablet */
+/* @media (max-width: 767px) {
+} */
+
+/* Landscape phones and down */
+/* @media (max-width: 480px) {
+} */
+
+/* Large desktop */
+/* @media (min-width: 1200px) {
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#framer {
+  margin: 4rem 2rem 4rem 2rem !important;
+}
+
+@media (min-width: 768px) {
+  #framer {
+    margin: 4rem 2rem 8rem 2rem !important;
+  }
+}
